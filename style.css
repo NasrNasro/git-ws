@@ -1,0 +1,98 @@
+.navmenu img {
+    width: 10%;
+    height: 10%;
+}
+
+.navmenu{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.menulinks {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.menulinks li {
+    list-style: none;
+}
+
+.menulinks li a{
+    text-decoration: none;
+}
+
+.text{
+    color: #1b49df;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.text:hover{
+    color:  red;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.about-section h1 {
+    width: 500px;
+    font-size: 50px;
+    color: aqua;
+    line-height: 70px;
+}
+
+.fishMarket-span{
+    color: blue;
+    text-decoration: underline;
+}
+
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 1%;
+}
+
+.textOne{
+    font-family: monospace;
+    text-align: left;
+}
+
+.work-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: tomato;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.work-section h1 {
+    width: 250px;
+    font-size: 50px;
+    color: turquoise;
+    line-height: 70px;
+    font-family: monospace;
+    background-color: teal;
+
+}
+
+.work-section img {
+    width: 40%;
+    height: 40%;
+}
+
+.fresh-span{
+    color: blue;
+    text-decoration: underline;
+}
+
